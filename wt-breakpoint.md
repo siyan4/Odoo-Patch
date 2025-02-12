@@ -21,4 +21,41 @@
 /home/sib/Projects/wt-4.11.2-qtc-http/src/Wt/WTextArea.h:83:  const WT_USTRING& text() const { return content_; }
 /home/sib/Projects/wt-4.11.2-qtc-http/src/Wt/WLineEdit.h:115:  const WT_USTRING& text() const { return content_; }
   
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/StaticReply.C:107:      boost::starts_with(request_path, "/resources/")) {
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/StaticReply.C:109:    gzipReply = openStream(stream_, path_, acceptGzip);
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/StaticReply.C:280:    stream_.read(buf_, (std::streamsize)
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/Wt/WStringStream.C:218:  result.push_back(AsioWrapper::asio::buffer(buf_, buf_i_));
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/Reply.C:297:    result.insert(result.end(), contentBuffers.begin(), contentBuffers.end());
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/TcpConnection.C:123:  LOG_DEBUG(native() << ": startAsyncWriteResponse");
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/TcpConnection.C:137:  asio::async_write(*socket_, buffers,
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/http/Connection.C:512:  LOG_DEBUG(native() << ": handleWriteResponse0(): "
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/WServer.C:193:  bool isRelayServer = args.size() < 1 || args[0] != "client";
+  
+#(gdb) set detach-on-fork off
+#(gdb) set follow-fork-mode child
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/Server.C:162:  pid_t pid = fork();
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/Server.C:155:  execv(argv[0], const_cast<char *const *>(argv));
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/WServer.C:216:  if (configuration().webSockets()) {
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/WServer.C:84:    if (!Server::bindUDStoStdin(conf.runDirectory() + "/server-"
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/Server.C:58:  int s = socket(AF_UNIX, SOCK_STREAM, 0);
+/home/sib/Projects/wt-4.11.2-qtc-http/src/fcgi/Server.C:312:  int s = socket(AF_UNIX, SOCK_STREAM, 0);
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/web/WebMain.C:26:{ }
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/Wt/WServer.C:101:  if (!ioService_) {
+  
+/home/sib/Projects/wt-4.11.2-qtc-http/src/web/WebMain.C:51:  for (;;) {
+  
 
