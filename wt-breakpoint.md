@@ -60,4 +60,6 @@
   
 /home/sib/Projects/wt-4.11.2-qtc-http/src/web/WebMain.C:51:  for (;;) {
   
+/home/sib/Projects/wt-4.11.2-qtc-http/src/web/Configuration.C:1468:  if (!runDirectory_.empty()) {
+  
 
