@@ -12,6 +12,8 @@
   
 /usr/include/boost/asio/detail/impl/scheduler.ipp:453:  while (!stopped_)
   
+/home/sib/Projects/wt-4.11.2-qtc-http/src/web/WebController.C:616:  if (!running_) {
+  
 /home/sib/Projects/wt-4.11.2-qtc-http/src/web/WebController.C:842:      session->handleRequest(handler);
   
 /home/sib/Projects/wt-4.11.2-qtc-http/src/web/WebSession.C:1289:  WebRequest& request = *handler.request();
